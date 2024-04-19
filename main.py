@@ -84,15 +84,12 @@
 # def product(a,b):
 #   if a == b:
 #     return 'Диапазон введён не верно' 
-#   elif a > b: 
-#     for i in range (a,b+1):
-#       c *= i
-#       return c
-#   elif a<b:
-#     for i in range(b,a+1):
-#       c *= i
-#       return c
+#   if a > b:
+#     a,b == b,a 
 #   c=1
+#   for i in range (a,b+1):
+#       c *= i
+#   return c
 # print(product(3,5))
 
 
